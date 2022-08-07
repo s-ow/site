@@ -7,4 +7,4 @@ Finalement, le site à l'air de plaire à pas mal de monde, n'hésitez pas à me
 
 __**Aperçu de ma propre page :**__
 *n'hésitez pas à cliquer sur l'image*
-[![*n'hésitez pas à cliquer sur l'image*](https://cdn.discordapp.com/attachments/931591509797654578/1005882591058071713/unknown.png?size=4096)](https://slump-exe.github.io/site)]
+[![*n'hésitez pas à cliquer sur l'image*](https://cdn.discordapp.com/attachments/931591509797654578/1005882591058071713/unknown.png?size=4096)](https://slump-exe.github.io/site)
