@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+<!-- Primary Meta Tags -->
+         <title>Josukeh's Website</title>
+         <meta name="title" content="Josukeh's Website">
+         <meta name="description" content="Home Page">
+         <meta name="theme-color" content="#aeb7e4">
+<!-- Open Graph / Facebook -->
+         <meta property="og:type" content="website">
+         <meta property="og:url" content="https://slump-exe.github.io/perso/page">
+         <meta property="og:title" content="Josukeh's Website">
+         <meta property="og:description" content="Home Page">
+         <meta property="og:image" content="https://cdn.discordapp.com/attachments/947615390836613140/1004918401728262154/a_164215e09df4ec65390dee0d928f0f4c.png?size=4096">
+
+<!-- Twitter -->
+         <meta property="twitter:card" content="summary_large_image">
+         <meta property="twitter:url" content="https://slump-exe.github.io/perso/page">
+         <meta property="twitter:title" content="Josukeh's Website">
+         <meta property="twitter:description" content="Home Page">
+         <meta property="twitter:image" content="https://cdn.discordapp.com/attachments/947615390836613140/1004918401728262154/a_164215e09df4ec65390dee0d928f0f4c.png?size=4096">
+        
+<!--Link rel-->        
+        <link rel="stylesheet" href="css/menu.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="shortcut icon" href="pics/josukefav.png" type="image/x-icon">
+</head>
+<body>
+  <div class="header">
+    <h2 id="back">Josukeh's Website</h2>
+    <p>On this page you will find all the pages of this site.</p>
+  </div>
+  
+  <div id="navbar">
+    <a class="active" href="javascript:void(0)">Home</a>
+    <a target="_blank" href="index.html">Josukeh's page</a>
+    <a target="_blank" href="https://discord.gg/dbAmYQUeFW">Get your page</a>
+    <a class="back" href="#back"><i class="ri-home-3-line"></i></a>
+  </div>
+    
+  <div class="content">
+    <h3>List of pages</h3>
+  </div>
+  <div class="liste">
+  <div class="chip">
+    <a href="http://slump-exe.github.io/site" target="_blank"><img src="pics/josuke.png" alt="Person" width="100" height="100">
+    <strong>Josukeh</strong></a> <br>
+    <span class="desc">I'm 16, I develop bots, sites and do gfx when I'm bored.</span> 
+  </div>
+
+  <div class="chip">
+    <a href="http://slump-exe.github.io/site" target="_blank"><img src="page/images/spacebot.png" alt="Person" width="100" height="100">
+    <strong>Space Gen</strong></a> <br>
+    <span class="desc">Le meilleur générateur d'accounts français ! Fiable, Sûr, Performant, et Français !</span> 
+  </div>
+
+  </div>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <span class="footer__copy">
+        &#169; <a href="http://slump-exe.github.io/site" class="linkk" target="_blank">josukeh#0001</a> on Discord. All rights reserved
+    </span>
+  </footer>
+    
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+    
+</body>
+</html>
