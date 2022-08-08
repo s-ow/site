@@ -56,6 +56,22 @@ const sr = ScrollReveal({
     delay: 400,
 })
 
+
+function myFunction() {
+    var copyText = document.getElementById("myInput");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+    
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copied: " + copyText.value;
+  }
+  
+  function outFunc() {
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copy to clipboard";
+  }
+
 sr.reveal(`.profile__border`)
 sr.reveal(`.profile__name`, {delay: 500})
 sr.reveal(`.profile__profession`, {delay: 600})
