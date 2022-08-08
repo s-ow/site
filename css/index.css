@@ -112,6 +112,18 @@
   display:none
   }
 
+@keyframes pulsate {
+  /* 
+      Here we have two shadows. You can add as many as you want by using different offset values as long as you separate it with a comma.
+      The values are as follow: offset-x | offset-y | blur-radius | color
+  */
+  0%{
+      box-shadow: 
+      0 0 25px var(--color),
+      0 0 50px var(--fond);
+  }
+}
+
 /*=============== footer button ===============*/
 ::selection{
 background-color: rgb(179, 179, 204);
