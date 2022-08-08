@@ -25,7 +25,10 @@
 }
 
 /*=============== footer button ===============*/
-
+::selection{
+background-color: rgb(179, 179, 204);
+color: white;
+}
 .bt {
   display: inline-block;
   border-radius: 20px;
